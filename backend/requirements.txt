@@ -1,0 +1,6 @@
+flask
+requests
+numpy
+opencv-python-headless
+scipy
+networkx
