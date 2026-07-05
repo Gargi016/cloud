@@ -20,10 +20,12 @@ def image(t):
 
 @app.route("/api/graph")
 def graph():
-    return jsonify({
-        "nodes": [],
-        "edges": []
-    })
+    path = "cache/graph.json"
+    if os.path.exists(path):
+        with open(path, "r") as f:
+            data = json.load(f)
+        return jsonify(data)
+    return jsonify({"nodes": [], "edges": []})
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
