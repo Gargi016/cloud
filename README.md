@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/Gemini_Generated_Image_m8c1b6m8c1b6m8c1.png" alt="cev banner" width="100%">
+</p>
 # Cloud Evolution Visualizer
 
 A full-stack computer vision application designed to segment, cluster, and track moving entities (such as cloud formations or aerial objects) across discrete time sequences. The project combines a modular Python backend pipeline with a minimal frontend interface for rapid visualization of tracking graphs.
