@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Gemini_Generated_Image_m8c1b6m8c1b6m8c1.png" alt="cev banner" width="100%">
+  <img src="assets/B2.png" alt="cev banner" width="100%">
 </p>
 
 # Cloud Evolution Visualizer
